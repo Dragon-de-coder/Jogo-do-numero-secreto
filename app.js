@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = []; // Armazena os números que já foram sorteados
-let numeroLimite = 100; // Define o limite máximo para o número secreto
+let numeroLimite = 50; // Define o limite máximo para o número secreto
 let numeroSecreto = gerarNumeroAleatorio(); // Gera o número secreto aleatório
 let tentativas = 1; // Inicializa o contador de tentativas
 
@@ -27,7 +27,7 @@ function exibirTextoNaTela(tag, texto) {
 // Função que exibe a mensagem inicial do jogo
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto'); // Exibe o título do jogo
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100'); // Exibe a instrução para o jogador
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50'); // Exibe a instrução para o jogador
 }
 
 exibirMensagemInicial(); // Chama a função para exibir a mensagem inicial
