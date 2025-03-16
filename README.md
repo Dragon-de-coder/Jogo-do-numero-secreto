@@ -3,6 +3,8 @@
 <h2>Sobre</h2>
 <p>Projeto da alura do curso de programação</p>
 
+🔗 **[Acesse o projeto online aqui](https://numerosecreto2.netlify.app/)**  
+
 <h2>Tecnologias</h2>
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
